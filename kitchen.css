@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.furnitures img{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    float: left;
+}
+
+.menu{
+   
+    float: left;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+ul{
+    float: right; 
+    
+    list-style-type:none;
+   font-size: 18px;
+   margin-left: 20px;
+   min-height: 400px;
+   
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:#Ffa500;
+    border-bottom: 2px solid #Ffa500;
+    
+}
+
+.dinnings {
+    
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    cursor: pointer;
+    float: left;
+    margin-right: none;
+    
+    
+}
+.column img{
+    width: 600px;
+    height: 300px;
+    margin-left: 20px;
+     
+}
+.column:hover{
+    border: 2px red solid;
+}
+.par{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    
+    height: 60px;
+    font-style: bold;
+    color:black;
+    
+    margin: 50px;
+    
+}
+.dinpar{
+    font-size: 18px;
+    text-align: center;
+    width: 1200px;
+    letter-spacing: normal;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-style:italic;
+    float: left;
+    margin-left: 200px;
+    color: black;
+}
+
+.c2 img{
+    width: 400px;
+    height: 600px;
+    margin-left: 30px;
+    float: right;
+    margin-right: 30px;
+
+     
+}
+.c2:hover{
+    border: 2px red solid;
+}
+.par2{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    height: 60px;
+    font-style: bold;
+    color:black;
+    margin-top: 50px;
+    float: left;
+    margin-left: 620px;
+    
+}
+.newpar{
+    
+        font-size: 20px;
+        text-align: center;
+        width: 1200px;
+        letter-spacing:5px;
+        margin-top: 5px;
+        font-family: sans-serif;
+        font-style:italic;
+        float: left;
+        margin-left: 150px;
+        color: black;
+}
+.finalpara{
+    font-size: 18px;
+    text-align: center;
+    width: 1400px;
+    letter-spacing: normal;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-style:italic;
+    float: left;
+    margin-left: 80px;
+    color: black;
+    margin-bottom: 50px;
+    
+}

@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.furnitures img{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    float: left;
+}
+
+.menu{
+   
+    float: left;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+ul{
+    float: right; 
+    
+    list-style-type:none;
+   font-size: 18px;
+   margin-left: 20px;
+   min-height: 400px;
+   
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color:#Ffa500  ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:#ffff80;
+    border-bottom: 2px solid #ffff80;
+    
+}
+
+.search{
+    width: 400px;
+    float: right;
+    margin-right: 70px;
+    margin-top: 15px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 300px;
+    height: 30px;
+    background:transparent;
+    border: 1px solid brown;
+    margin-top: 10px;
+    color: white;
+    border-right: none;
+    font-size: 18px;
+    float: left;
+    padding: 10px;
+    border-radius: 5px;
+    
+
+}
+::placeholder{
+    color: #ffff;
+    font-family: Arial;
+}
+.btn{
+    font-family: 'Times New Roman';
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    background:whitesmoke;
+    border: 2px solid brown;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color:black;
+    font-size: 15px;
+    float: right;
+    padding: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s ease;
+    border-radius:5px ;
+}
+.btn:hover{
+    background:skyblue;
+    border: 2px solid  ;
+}
+.content{
+    width: 1000px;
+    height: auto;
+    margin-top: 50px;
+    color: #ffff;
+    position: relative;
+    margin-left: 50px;
+    float: left;
+}
+.content .par{
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 40px;
+    padding-left: 20px;
+    float: left;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    color: #ffff80;
+    
+}
+.content .cn{
+    width: 120px;
+    height: 40px;
+    background:gold;
+    border: white;
+    margin-left: 20px;
+    font-size: 15px;
+    border-radius: 10px;
+    cursor: alias;
+    transition: .3s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color:black;
+    
+}
+.cn:hover{
+    background-color:skyblue;
+}
+.content span{
+    color: #BA8C63;
+    font-size: 50px;
+}
+.form{
+    width: 250px;
+    height: 380px;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 30px;
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 1100px;
+    margin-top: 20px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: blue;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+   margin: 2px;
+   padding: 8px;
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid gold;
+    border-top: 120px;
+    border-right: none;
+    border-left: none;
+    color: #ffff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+   
+}
+::placeholder{
+    color: #ffff;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: gold;
+    border: none;
+    margin-top: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btnn:hover{
+    background: white;
+    
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: gold;
+}
+.lw{
+    padding-top: 15px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+.icon a{
+    text-decoration: none;
+    color: #ffff;
+    
+}
+.icon ion-icon{
+    color: #ffff;
+    font-size: 20px;
+    padding-left: 16px;
+    padding-top: 5px;
+    text-align: center;
+    
+
+}
+.icon ion-icon:hover{
+    color: gold;
+}
+.icon{
+    margin-left: 20px;
+}
+

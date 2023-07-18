@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.furnitures img{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    float: left;
+}
+
+.menu{
+   
+    float: left;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    
+}
+ul{
+    float: right; 
+    
+    list-style-type:none;
+   font-size: 18px;
+   margin-left: 20px;
+   min-height: 400px;
+   
+}
+ul li{
+    list-style: none;
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 10px;
+    
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:#Ffa500;
+    border-bottom: 2px solid #Ffa500;
+    
+}
+.top img{
+    width: 1200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+    cursor: pointer;
+    float: right;
+    margin-right: none;
+    
+    
+}
+.col1 img{
+    width: 690px;
+    height: 300px;
+    margin-left: 10px;
+    float: right;
+    margin-right: 10px;
+     
+}
+.col1:hover{
+    border: 2px  solid;
+}
+.off img{
+    width: 1000px;
+    height: 100px;
+    float:right;
+    margin-left: 20px;
+    margin-right: 250px;
+    margin-top: 40px;
+    border: #Ffa500 2px solid;
+    border-radius: 5px;
+
+}
+.par{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    float: left;
+    height: 60px;
+    font-style: bold;
+    color:black;
+    margin-top: 40px;
+    margin-left: 700px;
+   
+    
+}
+.kidspara{
+    font-size: 18px;
+    text-align: center;
+    width: 1200px;
+    letter-spacing: normal;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-style:italic;
+    float: left;
+    margin-left: 200px;
+    color: black;
+    margin-bottom: 30px;
+}
+.c2 img{
+    width: 400px;
+    height: 600px;
+    margin-left: 30px;
+    float: right;
+    margin-right: 30px;
+
+     
+}
+.c2:hover{
+    border: 2px red solid;
+}
+.decor{
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    text-align: center;
+    float: left;
+    height: 60px;
+    font-style: bold;
+    color:black;
+    margin-top: 40px;
+    margin-left: 700px;
+   
+    
+}
+.c3 img{
+    width: 200px;
+    height: 350px;
+    margin-left: 5px;
+    float: right;
+    margin-right: 5px;
+    margin-bottom: 20px;
+     
+}
+.c3:hover{
+    border: 3px gold solid;
+}
+.finalpara{
+    font-size: 18px;
+    text-align: left;
+    width: 1400px;
+    letter-spacing: normal;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-style:italic;
+    float: left;
+    margin-left: 30px;
+    color: black;
+    margin-bottom: 10px;
+    
+}
+.finalpara2{
+    font-size: 18px;
+    text-align: left;
+    width: 1400px;
+    letter-spacing: normal;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-style:italic;
+    float: left;
+    margin-left: 30px;
+    color: black;
+    margin-bottom: 50px;
+    
+}
